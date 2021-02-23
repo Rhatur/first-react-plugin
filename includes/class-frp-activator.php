@@ -38,5 +38,6 @@ class Frp_Activator
             'post_status'  => 'publish',
             'post_type'    => 'page'
         );
+        $saved_page_id = wp_insert_post($saved_page_args);
     }
 }
